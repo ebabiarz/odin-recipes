@@ -1,0 +1,89 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: rgb(206, 228, 248);
+    color: rgb(19, 52, 96);
+}
+
+.title {
+    color:rgb(19, 52, 96);
+    font-size: 42px;
+}
+
+.button {
+    font-size: 24px;
+    color: rgb(206, 228, 248);
+    background-color: rgb(19, 52, 96);
+    outline-color: rgb(19, 52, 96);
+    border-color: rgb(19, 52, 96);
+    border-radius: 7px;
+    font-family: Tahoma, Verdana, sans-serif;
+    outline-color: transparent;
+}
+
+.button:hover {
+    color: rgb(19, 52, 96);
+    background-color: rgb(206, 228, 248);
+    transition: 0.2s;
+}
+
+.button:focus {
+    outline-style: solid;
+    box-shadow: 0 0 0 3px rgb(1, 132, 220);
+    transition: 0.2s;
+}
+
+.button:active {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 3px rgb(1, 176, 220);
+    background-color: rgb(130, 150, 169);
+}
+
+.list {
+    line-height: 4.0em;
+}
+
+.Sub-Heading {
+    font-size: 24px;
+    color: rgb(206, 228, 248);
+    background-color: rgb(19, 52, 96);
+    line-height: 1.5em;
+    text-indent: 10px;
+}
+
+.photo {
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+    height: 400;
+    width: auto;
+}
+
+.home.page {
+    color: rgb(19, 52, 96);
+    background-color: rgb(206, 228, 248);
+    outline-color: rgb(206, 228, 248);
+    border-color: rgb(19, 52, 96);
+    border-radius: 7px;
+    font-family: Tahoma, sans-serif;
+    outline-color: transparent;
+}
+
+.home.page:hover {
+    color: rgb(206, 228, 248);
+    background-color: rgb(19, 52, 96);
+    transition: 0.2s;
+}
+
+.home.page:focus {
+    outline-style: solid;
+    box-shadow: 0 0 0 3px rgb(1, 132, 220);
+    transition: 0.2s;
+}
+
+.homepage:active {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 3px rgb(1, 176, 220);
+    background-color: rgb(6, 26, 65);
+}
