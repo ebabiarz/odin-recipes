@@ -6,18 +6,31 @@ body {
 
 .title {
     color:rgb(19, 52, 96);
+    background-color:rgb(230, 241, 246);
     font-size: 42px;
+    text-align: center;
+    border: double 20px rgb(19, 52, 96);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
 }
 
 .button {
     font-size: 24px;
-    color: rgb(206, 228, 248);
+    color: rgb(230, 241, 246);
     background-color: rgb(19, 52, 96);
     outline-color: rgb(19, 52, 96);
     border-color: rgb(19, 52, 96);
     border-radius: 7px;
     font-family: Tahoma, Verdana, sans-serif;
     outline-color: transparent;
+    display: block;
+    margin: 30px auto;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .button:hover {
@@ -43,20 +56,47 @@ body {
     line-height: 4.0em;
 }
 
+ol,
+ul {
+    margin: 20px;
+    background-color: rgb(230, 241, 246);
+    border: double 7px rgb(19, 52, 96);
+    padding: 20px;
+    border-radius: 9px;
+}
+
+li {
+    margin: 5px 20px;
+}
+
+p {
+    margin: 20px;
+    background-color: rgb(230, 241, 246);
+    padding: 20px;
+    border: double 7px rgb(19, 52, 96);
+    border-radius: 9px;
+
+}
+
 .Sub-Heading {
     font-size: 24px;
-    color: rgb(206, 228, 248);
+    color: rgb(230, 241, 246);
+    border: double 10px rgb(206, 228, 248);
     background-color: rgb(19, 52, 96);
+    border-radius: 12px;
     line-height: 1.5em;
     text-indent: 10px;
+    margin: 10px;
 }
 
 .photo {
     display: block;
-    margin-left: 100px;
-    margin-right: auto;
-    height: 400;
+    margin: 20px auto;
+    height: 400px;
     width: auto;
+    background-color: rgb(230, 241, 246);
+    border: double 9px rgb(19, 52, 96);
+    border-radius: 10px;
 }
 
 .home.page {
